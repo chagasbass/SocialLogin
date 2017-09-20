@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 [assembly: Xamarin.Forms.Dependency(typeof(AuthenticateUWP))]
 namespace SocialLogin.UWP
 {
-    public class AuthenticateUWP : IAuthenticate 
+    public class AuthenticateUWP :IAuthenticate
     {
         public async Task<MobileServiceUser> Authenticate(MobileServiceClient client, MobileServiceAuthenticationProvider provider)
         {
